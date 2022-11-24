@@ -71,7 +71,7 @@ def main_apv():
         raw_input('  Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio Thanks')
         os.system('xdg-open https://wa.me/+923265089431 ')
  
-    r1 = requests.get('https://raw.githubusercontent.com/SubhanXKhan/KHAN-XD/main/server.txt').text
+    r1 = requests.get('https://raw.githubusercontent.com/Haniyabaloch0786/F-8/main/Approval.txt').text
     if key1 in r1:
         main_system()
     else:
