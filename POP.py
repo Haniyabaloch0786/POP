@@ -41,7 +41,7 @@ oks = []
 cps = []
  
 def main_apv():
-    imt = '+SUBHAN=='
+    imt = '+HANIYA=='
     os.system('clear')
     print logo
     try:
@@ -50,11 +50,9 @@ def main_apv():
         os.system('clear')
         print logo
         print '           You dont have subscrption'
-        print '           Hello Dear Ya Cammonds Paid Han Or'
-        print '           Ap Ke Subscription Nhi Ha Please Ap'
-        print '           Admin Sa Rabta Kran Thanks'
-        print '           Subscription Kelya Enter Press Kro'
-        print '           Or Whatsapp Pa Rabta Kro Thanks'
+        print '           Hello Dear This Cammonds Is Paid'
+        print '           Contact with Admin for subscription'
+        print '                        Thanks 
         print ''
         myid = uuid.uuid4().hex[:10]
         print '         YOUR KEY : ' + myid + imt
@@ -62,13 +60,13 @@ def main_apv():
         kok.write(myid + imt)
         kok.close()
         print ''
-        print '           Ya Uper Wale Ap Ke KEY Ha'
-        print '           Copy Kar Ka WhatsApp Pa Bhaj Dena'
+        print '           This Is your Key'
+        print '           Copy And Send on Whatsapp '
         print ''
         print ''
         print ''
-        print '             Agar Ap Na Subscription Kar Le Ha To'
-        raw_input('  Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio Thanks')
+        print '             If your subscription Done Exit termux '
+        raw_input('            And Run Again')
         os.system('xdg-open https://wa.me/+923265089431 ')
  
     r1 = requests.get('https://raw.githubusercontent.com/Haniyabaloch0786/F-8/main/Approval.txt').text
@@ -78,21 +76,19 @@ def main_apv():
         os.system('clear')
         print logo
         print '           You dont have subscrption'
-        print '           Hello Dear Ya Cammonds Paid Han Or'
-        print '           Ap Ke Subscription Nhi Ha Please Ap'
-        print '           Admin Sa Rabta Kran Thanks'
-        print '           Subscription Kelya Enter Press Kro'
-        print '           Or Whatsapp Pa Rabta Kro Thanks'
+        print '           Hello Dear This Cammonds Is Paid'
+        print '           Contact with Admin for subscription'
+        print '                        bThanks'
         print ''
         print '         YOUR KEY : ' + key1
         print ''
-        print '           Ya Uper Wale Ap Ke KEY Ha'
-        print '           Copy Kar Ka WhatsApp Pa Bhaj Dena'
+        print '           This Is your Key'
+        print '           Copy And Send on Whatsapp '
         print ''
         print ''
         print ''
-        print '             Agar Ap Na Subscription Kar Le Ha To'
-        raw_input('  Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio Thanks')
+        print '             If your subscription Done Exit termux '
+        raw_input('  And Run Again')
         os.system('xdg-open https://wa.me/+923265089431 ')
  
  
