@@ -41,7 +41,7 @@ oks = []
 cps = []
  
 def main_apv():
-    imt = '+HANIYA=='
+    imt = '+SUBHAN=='
     os.system('clear')
     print logo
     try:
