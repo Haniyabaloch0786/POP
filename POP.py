@@ -28,7 +28,7 @@ try:
 except:
     os.system('pip2 install lolcat')
  
-logo = "'\n\x1b[1;91m ##    ###    ##    ## #### ##    ##    ###\n'\x1b[1;92m##     ##   ## ##   ###   ##  ##   ##  ##    ## ##\n'\x1b[1;91m\n'\x1b[1;97m'##     ##  ##   ##  ####  ##  ##    ####    ##   ##\n'\x1b[1;93m'######### ##     ## ## ## ##  ##     ##    ##     ##\n'\x1b[1;94m'##     ## ######### ##  ####  ##     ##    #########\n'\x1b[1;92m'##     ## ##     ## ##   ###  ##     ##    ##     ##\n'\x1b[1;91m'##     ## ##     ## ##    ## ####    ##    ##     ##\n\t\n'\x1b[1;92m'   Author      :     Haniya Bloach     \n'\x1b[1;91m'   Github      :     HaniyaBloach786  \n'\x1b[1;96m'   FB ID       :     FATIMA SHEHZADI\n'\x1b[1;93m'   TOOL TYPE   :     PAID COMMANDS\n'\x1b[1;91m'   WAP NUMBER  :     +923265089431           \n"
+logo = "'\n\x1b[1;91m ##    ###    ##    ## #### ##    ##    ###\n'\x1b[1;92m##     ##   ## ##   ###   ##  ##   ##  ##    ## ##\n'\x1b[1;91m\n'\x1b[1;97m'##     ##  ##   ##  ####  ##  ##    ####    ##   ##\n'\x1b[1;93m'######### ##     ## ## ## ##  ##     ##    ##     ##\n'\x1b[1;94m'##     ## ######### ##  ####  ##     ##    #########\n'\x1b[1;92m'##     ## ##     ## ##   ###  ##     ##    ##     ##\n'\x1b[1;91m'##     ## ##     ## ##    ## ####    ##    ##     ##\n\t\n'\x1b[1;92m'   Author      :     Haniya Bloach     \n'\x1b[1;91m'   Github      :     HaniyaBloach786  \n'\x1b[1;96m'   FB ID       :     Beauty Queen\n'\x1b[1;93m'   TOOL TYPE   :     PAID COMMANDS\n'\x1b[1;91m'   WP NUMBER  :     +923265089431           \n"
 dec = '2'
 server = '2'
 rsauser = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
@@ -50,25 +50,20 @@ def main_apv():
         os.system('clear')
         print logo
         print '           You dont have subscrption'
-        print '           Hello Dear Ya Cammonds Paid Han Or'
-        print '           Ap Ke Subscription Nhi Ha Please Ap'
-        print '           Admin Sa Rabta Kran Thanks'
-        print '           Subscription Kelya Enter Press Kro'
-        print '           Or Whatsapp Pa Rabta Kro Thanks'
-        print ''
+        print '           Hello Dear this  Cammonds is Paid'
+        print '           you need Subscription first'
+        print '           contact with admin  Thanks'
         myid = uuid.uuid4().hex[:10]
         print '         YOUR KEY : ' + myid + imt
         kok = open('/sdcard/imt.txt', 'w')
         kok.write(myid + imt)
         kok.close()
         print ''
-        print '           Ya Uper Wale Ap Ke KEY Ha'
-        print '           Copy Kar Ka WhatsApp Pa Bhaj Dena'
+        print '           this is your key'
+        print '           Copy and send me on WhatsApp'
         print ''
-        print ''
-        print ''
-        print '             Agar Ap Na Subscription Kar Le Ha To'
-        raw_input('  Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio Thanks')
+        print '             if your Subscription done '
+        raw_input('  exit termux and run again Cammonds Thanks')
         os.system('xdg-open https://wa.me/+923265089431 ')
  
     r1 = requests.get('https://raw.githubusercontent.com/Haniyabaloch0786/F-8/main/Approval.txt').text
@@ -78,21 +73,15 @@ def main_apv():
         os.system('clear')
         print logo
         print '           You dont have subscrption'
-        print '           Hello Dear Ya Cammonds Paid Han Or'
-        print '           Ap Ke Subscription Nhi Ha Please Ap'
-        print '           Admin Sa Rabta Kran Thanks'
-        print '           Subscription Kelya Enter Press Kro'
-        print '           Or Whatsapp Pa Rabta Kro Thanks'
-        print ''
+        print '           Hello Dear this  Cammonds is Paid'
+        print '           you need Subscription first'
+        print '           contact with admin  Thanks'
         print '         YOUR KEY : ' + key1
         print ''
-        print '           Ya Uper Wale Ap Ke KEY Ha'
-        print '           Copy Kar Ka WhatsApp Pa Bhaj Dena'
-        print ''
-        print ''
-        print ''
-        print '             Agar Ap Na Subscription Kar Le Ha To'
-        raw_input('  Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio Thanks')
+        print '           this is your key'
+        print '           Copy and send me on WhatsApp'
+        print '             if your Subscription done '
+        raw_input('  exit termux and run again Cammonds Thanks')
         os.system('xdg-open https://wa.me/+923265089431 ')
  
  
